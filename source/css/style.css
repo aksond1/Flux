@@ -100,7 +100,6 @@ header {
 
 .main {
   display: flex;
-  height: calc(100vh - 86px);
 }
 
 .left-sidebar {
