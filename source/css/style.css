@@ -35,7 +35,8 @@ header {
 .logo-container {
   display: flex;
   justify-content: center;
-  padding-left: 40px;
+  width: 220px;
+  padding-left: 0px;
 }
 
 .flux-img {
@@ -43,7 +44,7 @@ header {
   height: 30px;
   float: left;
   position: relative;
-  top: 9px;
+  top: 8px;
 }
 
 .flux-title {
@@ -105,11 +106,12 @@ header {
 .left-sidebar {
   background-color: rgb(136, 83, 83);
   padding: 0px 20px;
-  margin: 20px 0px;
+  margin: 0;
+  margin-bottom: 20px;
   width: 220px;
   display: flex;
   flex-direction: column;
-  border: 1px solid rgb(90, 90, 90);
+  border-right: 1px solid rgb(90, 90, 90);
 }
 
 .qwe {
@@ -120,5 +122,6 @@ header {
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin: 20px;
+  margin: 0px 20px;
+  margin-bottom: 20px;
 }
