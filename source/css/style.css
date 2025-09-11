@@ -20,6 +20,12 @@ a {
   color: #ffffff;
 }
 
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+}
+
 header {
   background-color: rgb(10, 10, 10);
   height: 46px;
@@ -103,7 +109,7 @@ header {
 }
 
 .left-sidebar {
-  background-color: rgb(136, 83, 83);
+  background-color: rgb(10, 10, 10);
   padding: 0px 20px;
   margin: 0;
   margin-bottom: 20px;
@@ -113,7 +119,38 @@ header {
   border-right: 1px solid rgb(90, 90, 90);
 }
 
-.qwe {
+.followed-channels-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.followed-channel-element {
+  display: flex;
+  gap: 10px;
+}
+
+.author-infobox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.author-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.author-nickname {
+  margin: 0;
+  padding: 0;
+}
+
+.author-stream-title {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
 }
 
 .content {
