@@ -108,6 +108,12 @@ header {
   display: flex;
 }
 
+.following-title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 .left-sidebar {
   background-color: rgb(10, 10, 10);
   padding: 0px 20px;
