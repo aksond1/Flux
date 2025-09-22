@@ -337,8 +337,6 @@ header {
 
 .tree-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   border-bottom: 1px solid rgb(90, 90, 90);
 }
 
@@ -351,9 +349,9 @@ header {
 /* Стовбур */
 .trunk {
   position: absolute;
-  left: 50%;
+  left: 43%;
   top: 50px;
-  bottom: 0px;
+  bottom: 50px;
   border-left: 1px solid rgb(145, 145, 145);
 }
 
@@ -368,7 +366,7 @@ header {
   position: absolute;
   width: 110px;
   top: 148px;
-  left: calc(50% - 110px);
+  left: calc(43% - 110px);
 }
 
 .left1-box {
@@ -380,7 +378,7 @@ header {
   justify-content: center;
   position: absolute;
   top: 103px;
-  left: calc(50% - 290px);
+  left: calc(43% - 290px);
   border-radius: 10px;
 }
 
@@ -388,7 +386,7 @@ header {
   position: absolute;
   width: 50px;
   top: 342px;
-  left: calc(50% - 50px);
+  left: calc(43% - 50px);
 }
 .left2-box {
   width: 300px;
@@ -399,7 +397,7 @@ header {
   justify-content: center;
   position: absolute;
   top: 292px;
-  left: calc(50% - 350px);
+  left: calc(43% - 350px);
   border-radius: 10px;
 }
 
@@ -407,7 +405,7 @@ header {
 .branch-right {
   position: absolute;
   top: 240px;
-  left: 50%;
+  left: 43%;
   width: 60px; /* достатньо, щоб дотягнути до прямокутника */
   border-top: 1px solid rgb(145, 145, 145);
 }
@@ -421,26 +419,39 @@ header {
   justify-content: center;
   position: absolute;
   top: 131px;
-  left: calc(50% + 60px); /* вирівнюємо під ширину гілки */
+  left: calc(43% + 60px); /* вирівнюємо під ширину гілки */
   border-radius: 10px;
 }
 
-.previous-tree-button {
-  margin-right: 60px;
-  width: 20px;
-  height: 40px;
-  background-color: #242424;
+.tree-author-infobox {
+  width: 600px;
+  height: 504px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  margin-left: 100px;
+  gap: 15px;
 }
 
-.next-tree-button {
-  margin-left: 150px;
-  width: 20px;
-  height: 40px;
-  background-color: #242424;
+.about-section {
+  width: 580px;
+  height: 100px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.info-section {
+  width: 580px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clip {
+  background-color: #1d1d1d;
+  width: 250px;
+  height: 150px;
 }
