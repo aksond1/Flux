@@ -374,12 +374,45 @@ header {
   height: 90px;
   background-color: #1d1d1d;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
   position: absolute;
   top: 103px;
   left: calc(43% - 290px);
   border-radius: 10px;
+  padding: 10px;
+}
+
+.icon-and-nickname {
+  display: flex;
+  gap: 10px;
+}
+
+.author-icon-tree {
+  width: 50px;
+  height: 50px;
+}
+
+.text-author-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nickname {
+  margin: 0;
+  font-weight: bold;
+}
+
+.followers {
+  margin: 0;
+  font-size: 14px;
+}
+
+.author-short-info {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .left2-branch {
@@ -425,12 +458,11 @@ header {
 
 .tree-author-infobox {
   width: 600px;
-  height: 504px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-left: 100px;
-  gap: 15px;
+  gap: 25px;
 
   padding-top: 50px;
 }
@@ -452,11 +484,17 @@ header {
 }
 
 .author-showcase {
-  width: 250px;
-  height: 150px;
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
 }
 
 .author-stats-svg {
-  width: 150px;
-  height: 180px;
+  width: 170px;
+  height: 170px;
+}
+
+.stats-text {
+  font-size: 15px;
 }
