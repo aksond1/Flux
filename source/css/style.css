@@ -431,6 +431,8 @@ header {
   align-items: center;
   margin-left: 100px;
   gap: 15px;
+
+  padding-top: 50px;
 }
 
 .about-section {
@@ -444,14 +446,17 @@ header {
 
 .info-section {
   width: 580px;
-  height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.clip {
-  background-color: #1d1d1d;
+.author-showcase {
   width: 250px;
   height: 150px;
+}
+
+.author-stats-svg {
+  width: 150px;
+  height: 180px;
 }
