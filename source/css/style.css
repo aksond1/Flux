@@ -494,3 +494,36 @@ header {
   justify-content: center;
   border-top: 1px solid gray;
 }
+
+.stream-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stream-group-1,
+.stream-group-2 {
+  width: 800px;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.stream-box {
+  display: flex;
+  gap: 15px;
+}
+
+.stream-info {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.stream-img {
+  background-color: #1d1d1d;
+  width: 270px;
+  height: 152px;
+  border-radius: 10px;
+}
