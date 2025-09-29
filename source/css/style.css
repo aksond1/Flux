@@ -333,14 +333,14 @@ header {
   left: 43%;
   top: 50px;
   bottom: 50px;
-  border-left: 1px solid rgb(145, 145, 145);
+  border-left: 1px solid gray;
 }
 
 /* Ліві гілки */
 .branch-left {
   position: absolute;
   width: 80px;
-  border-top: 1px solid rgb(145, 145, 145);
+  border-top: 1px solid gray;
 }
 
 .left1-branch {
@@ -361,6 +361,7 @@ header {
   left: calc(43% - 290px);
   border-radius: 10px;
   padding: 10px;
+  border: 1px solid gray;
 }
 
 .icon-and-nickname {
@@ -413,6 +414,7 @@ header {
   top: 292px;
   left: calc(43% - 350px);
   border-radius: 10px;
+  border: 1px solid gray;
 }
 
 /* Права гілка */
@@ -421,7 +423,7 @@ header {
   top: 240px;
   left: 43%;
   width: 60px; /* достатньо, щоб дотягнути до прямокутника */
-  border-top: 1px solid rgb(145, 145, 145);
+  border-top: 1px solid gray;
 }
 
 .right-box {
@@ -435,6 +437,7 @@ header {
   top: 131px;
   left: calc(43% + 60px); /* вирівнюємо під ширину гілки */
   border-radius: 10px;
+  border: 1px solid gray;
 }
 
 .tree-author-infobox {
