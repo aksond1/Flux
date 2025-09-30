@@ -317,14 +317,13 @@ header {
 
 .tree-container {
   display: flex;
-  border-bottom: 1px solid rgb(90, 90, 90);
   gap: 70px;
 }
 
 .tree {
   position: relative;
   width: 900px;
-  height: 503px;
+  height: 493px;
 }
 
 /* Стовбур */
@@ -353,7 +352,7 @@ header {
 .left1-box {
   width: 180px;
   height: 90px;
-  background-color: #1d1d1d;
+  background-color: rgb(10, 10, 10);
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -406,10 +405,11 @@ header {
 .left2-box {
   width: 300px;
   height: 100px;
-  background-color: #1d1d1d;
+  padding: 10px;
+  background-color: rgb(10, 10, 10);
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   position: absolute;
   top: 292px;
   left: calc(43% - 350px);
@@ -506,7 +506,8 @@ header {
 .stream-group-1,
 .stream-group-2 {
   width: 800px;
-  padding: 20px 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -553,6 +554,26 @@ header {
   padding-top: 10px;
   padding-right: 15px;
   flex-shrink: 0;
+}
+
+.adjust-categories {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-top: 1px solid gray;
+}
+
+.sort-categories {
+  margin: 0;
+}
+
+.combine-keywords-container {
+  display: flex;
+  gap: 10px;
+}
+
+.combine-with-keywords {
+  margin: 0;
 }
 
 .categories-list {
