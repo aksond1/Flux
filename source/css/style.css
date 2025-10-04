@@ -596,6 +596,7 @@ header {
 .category-info {
   padding: 10px;
   width: 140px;
+  height: 200px;
   border-left: none;
   display: flex;
   flex-direction: column;
@@ -617,4 +618,69 @@ header {
 
 .next-categories-button {
   border-bottom: 1px solid white;
+}
+
+.root-from-category {
+  background-color: white;
+  position: absolute;
+  left: 356px;
+  top: 1412px;
+  width: 1px;
+  height: 28px;
+}
+
+.main-root {
+  background-color: white;
+  position: absolute;
+  left: 356px;
+  top: 1440px;
+  width: 1344px;
+  height: 1px;
+}
+
+.root1,
+.root2,
+.root3,
+.root4,
+.root5 {
+  background-color: white;
+  position: absolute;
+  top: 1440px;
+  width: 1px;
+  height: 28px;
+}
+
+.root1 {
+  left: 431px;
+}
+
+.root2 {
+  left: 748px;
+}
+
+.root3 {
+  left: 1065px;
+}
+
+.root4 {
+  left: 1382px;
+}
+
+.root5 {
+  left: 1699px;
+}
+
+.category-streams {
+  width: 1580px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-stream-cover {
+  background-color: #1d1d1d;
+  border-radius: 5px;
+  margin-top: 35px;
+  width: 310px;
+  height: 174px;
 }
