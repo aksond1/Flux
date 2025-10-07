@@ -638,13 +638,13 @@ header {
 .category-cover-img {
   border: none;
   background-color: #1d1d1d;
-  width: 150px;
+  width: 152px;
   height: 200px;
 }
 
 .category-infobox {
   padding: 10px;
-  width: 140px;
+  width: 143px;
   height: 200px;
   border-left: none;
   display: flex;
@@ -664,20 +664,13 @@ header {
 
 .next-previous-categories-buttons {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  gap: 20px;
 }
 
-.next-previous-categories-buttons svg {
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.next-categories-button {
-  border-bottom: 1px solid white;
+.vertical-line-1 {
+  height: 19px;
+  width: 1px;
+  background-color: white;
 }
 
 /* Categories streams section */
@@ -696,7 +689,7 @@ header {
   position: absolute;
   left: 356px;
   top: 1440px;
-  width: 1344px;
+  width: 1365px;
   height: 1px;
 }
 
@@ -713,33 +706,34 @@ header {
 }
 
 .root1 {
-  left: 431px;
+  left: 433px;
 }
 
 .root2 {
-  left: 748px;
+  left: 755px;
 }
 
 .root3 {
-  left: 1065px;
+  left: 1077px;
 }
 
 .root4 {
-  left: 1382px;
+  left: 1399px;
 }
 
 .root5 {
-  left: 1699px;
+  left: 1721px;
 }
 
 .category-streams {
-  width: 1580px;
+  width: 1603px;
   margin: 0;
   display: flex;
   justify-content: space-between;
 }
 
-.category-stream-container {
+.category-stream-container,
+.moment-item {
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -749,24 +743,204 @@ header {
   background-color: #1d1d1d;
   border-radius: 5px;
   margin-top: 35px;
-  width: 310px;
-  height: 174px;
+  width: 315px;
+  height: 177px;
 }
 
 .category-stream-box {
-  width: 310px;
+  width: 315px;
   display: flex;
   justify-content: space-between;
 }
 
 .category-stream-infobox {
-  width: 310px;
+  width: 315px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 5px;
 }
 
+.stream-title-box {
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.more-button-svg {
+  width: 24px;
+  height: 24px;
+}
+
 .categories-show-more-button {
-  margin-top: 20px;
+  padding: 15px 0px;
+  border-bottom: 1px solid gray;
+}
+
+/* Chronology of moments Section */
+
+.underline {
+  position: absolute;
+  background-color: white;
+  height: 1px;
+  width: 1255px;
+  left: 530px;
+}
+
+.underline1 {
+  top: 2420px;
+}
+
+.line {
+  position: absolute;
+  background-color: white;
+  width: 1px;
+  height: 18px;
+  transform: rotate(45deg);
+}
+
+.line1 {
+  top: 2419px;
+  left: 720px;
+}
+
+.line2 {
+  top: 2419px;
+  left: 1170px;
+}
+
+.line3 {
+  top: 2419px;
+  left: 1620px;
+}
+
+.underline2 {
+}
+
+.underline3 {
+}
+
+.chronology-container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.chronology-title {
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.chronology-swap-button {
+  width: 16px;
+  height: 16px;
+}
+
+.chronology-box {
+  display: flex;
+  gap: 10px;
+}
+
+.about-author {
+  background-color: #1d1d1d;
+  width: 200px;
+  height: 280px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.moments-box {
+  width: 1365px;
+  display: flex;
+  flex-direction: column;
+}
+
+.moments {
+  display: flex;
+  justify-content: space-between;
+}
+
+.moments-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px;
+}
+
+.moment-item {
+  display: flex;
+  gap: 10px;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 114px;
+  background-color: white;
+  margin: 40px 48px;
+}
+
+.next-previous-moments-buttons {
+  margin-top: 10px;
+  margin-right: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.next-previous-moments-buttons svg {
+  height: 90px;
+}
+
+.horizontal-line {
+  width: 20px;
+  height: 1px;
+  background-color: white;
+}
+
+.chronology-stream-cover {
+  background-color: #1d1d1d;
+  border-radius: 5px;
+  width: 345px;
+  height: 194px;
+}
+
+.chronology-stream-infobox {
+  width: 345px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chronology-stream-title {
+  text-align: center;
+}
+
+.dates-of-moments {
+  display: flex;
+}
+
+.first-date {
+  padding-top: 28px;
+  padding-left: 160px;
+}
+
+.second-date {
+  padding-top: 28px;
+  padding-left: 375px;
+}
+
+.third-date {
+  padding-top: 28px;
+  padding-left: 375px;
+}
+
+.the-end {
+  font-style: italic;
+  width: 1523px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
 }
