@@ -96,7 +96,7 @@
         </svg>
       </div>
 
-      <div style="display: flex; align-items: center; gap: 15px">
+      <div class="right-buttons-header">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"
@@ -129,6 +129,7 @@
 
     <div class="main">
       <div class="left-sidebar">
+        <!-- User Section -->
         <img
           class="banner"
           src="/assets/images/gif/banner.gif"
@@ -138,11 +139,13 @@
           <img class="user-img" src="/assets/images/jpg/icon.jpeg" alt="icon" />
           <div class="user-infobox">
             <span class="user-name"
-              >aksond1 <span style="color: limegreen">•</span></span
+              >aksond1 <span class="current-user-status-dot">•</span></span
             >
             <span class="current-status">Watching: Mande - TEST..</span>
           </div>
         </div>
+
+        <!-- Following channels Section -->
 
         <div class="following-container">
           <h4 class="following-title">Following Channels:</h4>
@@ -158,7 +161,8 @@
                 <div class="author-infobox">
                   <p class="author-nickname">
                     Skevich
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span> 984
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    984
                   </p>
                   <p class="author-stream-title">я закоханий в доту</p>
                 </div>
@@ -175,7 +179,8 @@
                 <div class="author-infobox">
                   <p class="author-nickname">
                     Mande
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span> 3891
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    3891
                   </p>
                   <p class="author-stream-title">TESTING THE NEW SEAS...</p>
                 </div>
@@ -192,7 +197,8 @@
                 <div class="author-infobox">
                   <p class="author-nickname">
                     Olsior
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span> 677
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    677
                   </p>
                   <p class="author-stream-title">Дивимось сталевого ал...</p>
                 </div>
@@ -209,7 +215,8 @@
                 <div class="author-infobox">
                   <p class="author-nickname">
                     jL
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span> 2368
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    2368
                   </p>
                   <p class="author-stream-title">just having fun</p>
                 </div>
@@ -226,7 +233,8 @@
                 <div class="author-infobox">
                   <p class="author-nickname">
                     Maincast
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span> 7412
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    7412
                   </p>
                   <p class="author-stream-title">NAVI vs Vitality | by @nick</p>
                 </div>
@@ -235,14 +243,13 @@
 
             <li>
               <a href="qwedsd">
-                <h5 style="margin: 0; padding: 0">
-                  Show More
-                  <span style="position: relative; bottom: 2px">↓</span> (23)
-                </h5>
+                <h5 class="no-margin">Show More ↴ (23)</h5>
               </a>
             </li>
           </ul>
         </div>
+
+        <!-- Recommendations Section -->
 
         <div class="recommendations-container">
           <h4 class="recommendations-title">< Recommendations ></h4>
@@ -258,7 +265,8 @@
                 <div class="author-infobox">
                   <p class="author-nickname">
                     IShowSpeed
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span> 8351
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    8351
                   </p>
                   <p class="author-stream-title">IRL stream in New York</p>
                 </div>
@@ -275,7 +283,8 @@
                 <div class="author-infobox">
                   <p class="author-nickname">
                     TuxBird
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span> 1097
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    1097
                   </p>
                   <p class="author-stream-title">doing a side quest in r6</p>
                 </div>
@@ -292,7 +301,8 @@
                 <div class="author-infobox">
                   <p class="author-nickname">
                     Dendi
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span> 1593
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    1593
                   </p>
                   <p class="author-stream-title">Hook Accuracy: 99%</p>
                 </div>
@@ -301,14 +311,13 @@
 
             <li>
               <a href="qwedsd">
-                <h5 style="margin: 0; padding: 0">
-                  Show More
-                  <span style="position: relative; bottom: 2px">↓</span>
-                </h5>
+                <h5 class="no-margin">Show More ↴</h5>
               </a>
             </li>
           </ul>
         </div>
+
+        <!-- Hint-fact Section -->
 
         <div class="hint-fact-container">
           <h4 class="hf-title">Fun Fact</h4>
@@ -317,11 +326,15 @@
           </p>
         </div>
 
+        <!-- Links Section -->
+
         <div class="links-container">
           <a class="links-title" href="123.qwe">
             Absolutely nothing happens if you click here…
           </a>
         </div>
+
+        <!-- Feedback Section -->
 
         <div class="feedback-container">
           <label for="feedback"
@@ -333,6 +346,8 @@
             placeholder="Write your feedback here..."
           ></textarea>
         </div>
+
+        <!-- Other stuff Section -->
 
         <div class="other-stuff-container">
           <div>
@@ -348,12 +363,15 @@
       </div>
 
       <div class="hero">
+        <!-- Tree Section -->
+
         <div class="tree-container">
           <div class="tree">
             <div class="trunk"></div>
-            <!-- Ліва верхня -->
-            <div class="branch-left left1-branch"></div>
-            <div class="box left1-box">
+
+            <div class="left-branches left1-branch"></div>
+
+            <div class="leaf left1-box">
               <div class="icon-and-nickname">
                 <img
                   class="author-icon-tree"
@@ -368,58 +386,54 @@
                 </div>
               </div>
               <div class="author-short-info">
-                <p style="margin: 0; font-size: 13px">
+                <p class="no-margin">
                   дедлок найкраща гра в світі (наві дайте інвайт пж)
                 </p>
               </div>
             </div>
 
-            <!-- Ліва нижня -->
-            <div class="branch-left left2-branch"></div>
+            <div class="left-branches left2-branch"></div>
 
-            <img
-              class="box left2-box"
-              src="/assets/images/png/live-stream-chat-example.png"
-              alt="live-stream-chat-example"
-            />
-
-            <div class="box left2-box">
-              <p style="margin: 0; font-size: 15px">
-                <span style="color: gold">plaksiy</span>: (це не сарказм)
+            <div class="leaf left2-box">
+              <p class="no-margin">
+                <span class="user-nickname-to-yellow">plaksiy</span>: (це не
+                сарказм)
               </p>
 
               <div>
-                <p style="margin: 0; color: gray; font-size: 14px">
+                <p class="reply-to-text no-margin">
                   Replying to @rakeQN: @sharing_love_ so ...
                 </p>
 
-                <p style="margin: 0; font-size: 15px">
-                  <span style="color: red">sharing_love_</span>: idk why but in
-                  my life big balls mostly in my mouth
+                <p class="no-margin">
+                  <span class="user-nickname-to-red">sharing_love_</span>: idk
+                  why but in my life big balls mostly in my mouth
                 </p>
               </div>
             </div>
 
-            <!-- Права -->
-            <div class="branch-right"></div>
+            <div class="right-branch"></div>
+
             <img
-              class="box right-box"
+              class="leaf right-box"
               src="/assets/images/png/live-stream-example.png"
               alt="live-stream-example"
             />
           </div>
 
+          <!-- Tree - Author info Section -->
+
           <div class="tree-author-infobox">
             <div class="about-section">
-              <h3 style="margin: 0; padding: 0">About Skevich_</h3>
-              <p style="margin: 0; padding: 0">
+              <h3 class="no-margin">About Skevich_</h3>
+              <p class="no-margin">
                 Називайте мене Скеля, моя робоча пошта: ilovedota2@email.com
               </p>
             </div>
 
             <div class="info-section">
-              <h3 style="margin: 0; text-align: center">< Statistics ></h3>
-              <div class="author-showcase">
+              <h3 class="showcase-title no-margin">< Statistics ></h3>
+              <div class="author-stats-showcase">
                 <img
                   class="author-stats-svg"
                   src="/assets/images/png/bar-graph.png"
@@ -427,22 +441,16 @@
                 />
 
                 <div>
-                  <ul class="stats-text">
+                  <ul class="author-stats-text">
                     <li>- Dota 2 (65.3%)</li>
                     <li>- Movies (11.9%)</li>
                     <li>- Deadlock (22.8%)</li>
                   </ul>
 
-                  <ul class="avg-viewers">
-                    <li style="margin: 0; font-size: 15px">
-                      Click to check other stats:
-                    </li>
-                    <li style="margin: 0; font-size: 14px; color: gray">
-                      Average viewers: 704
-                    </li>
-                    <li style="margin: 0; font-size: 14px; color: gray">
-                      Hours streamed: 42.2k
-                    </li>
+                  <ul class="other-author-stats">
+                    <li class="no-margin">Click to check other stats:</li>
+                    <li class="no-margin">Average viewers: 704</li>
+                    <li class="no-margin">Hours streamed: 42.2k</li>
                   </ul>
                 </div>
               </div>
@@ -450,7 +458,9 @@
           </div>
         </div>
 
-        <p style="margin: 0; font-weight: bold">
+        <!-- Streams Section -->
+
+        <p class="stream-container-title no-margin">
           Live Streams from Followed & Recommended Creators
         </p>
 
@@ -472,17 +482,21 @@
                     />
 
                     <div class="author-infobox">
-                      <h4 style="margin: 0">
+                      <h4 class="no-margin">
                         Mande
-                        <span style="color: limegreen">&nbsp;•&nbsp;</span>
-                        <span style="font-weight: 500">3022</span>
+                        <span class="current-user-status-dot"
+                          >&nbsp;•&nbsp;</span
+                        >
+                        <span class="amount-of-viewers">3022</span>
                       </h4>
 
-                      <p style="margin: 0; font-size: 13px">672K followers</p>
+                      <p class="amount-of-followers no-margin">
+                        672K followers
+                      </p>
                     </div>
                   </li>
                   <li>🪐MEGA OF THE BONKING WHILE I BONK ON YO MOMMA</li>
-                  <li style="font-weight: 500">
+                  <li class="stream-categories">
                     Apex Legens | Chill | Femboy | English
                   </li>
                 </ul>
@@ -537,17 +551,21 @@
                     />
 
                     <div class="author-infobox">
-                      <h4 style="margin: 0">
+                      <h4 class="no-margin">
                         jLcs2
-                        <span style="color: limegreen">&nbsp;•&nbsp;</span>
-                        <span style="font-weight: 500">2368</span>
+                        <span class="current-user-status-dot"
+                          >&nbsp;•&nbsp;</span
+                        >
+                        <span class="amount-of-viewers">2368</span>
                       </h4>
 
-                      <p style="margin: 0; font-size: 13px">310K followers</p>
+                      <p class="amount-of-followers no-margin">
+                        310K followers
+                      </p>
                     </div>
                   </li>
                   <li>gaining all the lost elo back TODAY</li>
-                  <li style="font-weight: 500">CS2 | English | NaVi | Fun</li>
+                  <li class="stream-categories">CS2 | English | NaVi | Fun</li>
                 </ul>
               </div>
 
@@ -600,17 +618,21 @@
                     />
 
                     <div class="author-infobox">
-                      <h4 style="margin: 0">
+                      <h4 class="no-margin">
                         Dendi
-                        <span style="color: limegreen">&nbsp;•&nbsp;</span>
-                        <span style="font-weight: 500">1566</span>
+                        <span class="current-user-status-dot"
+                          >&nbsp;•&nbsp;</span
+                        >
+                        <span class="amount-of-viewers">1566</span>
                       </h4>
 
-                      <p style="margin: 0; font-size: 13px">1.1M followers</p>
+                      <p class="amount-of-followers no-margin">
+                        1.1M followers
+                      </p>
                     </div>
                   </li>
                   <li>🔮 Prophecy of the NEW ERA patch</li>
-                  <li style="font-weight: 500">
+                  <li class="stream-categories">
                     Dota 2 | MOBA | MMR | English
                   </li>
                 </ul>
@@ -649,7 +671,7 @@
               </svg>
             </div>
 
-            <p style="margin: 0; font-weight: bold">Show More ↴</p>
+            <h4 class="no-margin">Show More ↴</h4>
           </div>
 
           <div class="stream-group-2">
@@ -669,18 +691,22 @@
                     />
 
                     <div class="author-infobox">
-                      <h4 style="margin: 0">
+                      <h4 class="no-margin">
                         Olsior
-                        <span style="color: limegreen">&nbsp;•&nbsp;</span>
-                        <span style="font-weight: 500">804</span>
+                        <span class="current-user-status-dot"
+                          >&nbsp;•&nbsp;</span
+                        >
+                        <span class="amount-of-viewers">804</span>
                       </h4>
 
-                      <p style="margin: 0; font-size: 13px">110K followers</p>
+                      <p class="amount-of-followers no-margin">
+                        110K followers
+                      </p>
                     </div>
                   </li>
                   <li>Silksong (не)ФІНАЛ разом із @meowgicchris</li>
 
-                  <li style="font-weight: 500">
+                  <li class="stream-categories">
                     Hollow Knight: Silksong | Chill | Українська | Chat Mode
                   </li>
                 </ul>
@@ -735,19 +761,23 @@
                     />
 
                     <div class="author-infobox">
-                      <h4 style="margin: 0">
+                      <h4 class="no-margin">
                         IShowSpeed
-                        <span style="color: limegreen">&nbsp;•&nbsp;</span>
-                        <span style="font-weight: 500">3586</span>
+                        <span class="current-user-status-dot"
+                          >&nbsp;•&nbsp;</span
+                        >
+                        <span class="amount-of-viewers">3586</span>
                       </h4>
 
-                      <p style="margin: 0; font-size: 13px">2.4M followers</p>
+                      <p class="amount-of-followers no-margin">
+                        2.4M followers
+                      </p>
                     </div>
                   </li>
                   <li>
                     24/7 irl stream in America 🇺🇸 Day 32 of 35 (Phoenix, AZ)
                   </li>
-                  <li style="font-weight: 500">Speed | English | IRL | Fun</li>
+                  <li class="stream-categories">Speed | English | IRL | Fun</li>
                 </ul>
               </div>
 
@@ -800,17 +830,21 @@
                     />
 
                     <div class="author-infobox">
-                      <h4 style="margin: 0">
+                      <h4 class="no-margin">
                         Alliance_Hakis
-                        <span style="color: limegreen">&nbsp;•&nbsp;</span>
-                        <span style="font-weight: 500">404</span>
+                        <span class="current-user-status-dot"
+                          >&nbsp;•&nbsp;</span
+                        >
+                        <span class="amount-of-viewers">404</span>
                       </h4>
 
-                      <p style="margin: 0; font-size: 13px">125K followers</p>
+                      <p class="amount-of-followers no-margin">
+                        125K followers
+                      </p>
                     </div>
                   </li>
                   <li>PRED GRIND! | - !Code : Hakis</li>
-                  <li style="font-weight: 500">
+                  <li class="stream-categories">
                     Apex Legends | Movementgod | IGL | English
                   </li>
                 </ul>
@@ -851,57 +885,33 @@
           </div>
         </div>
 
+        <!-- Categories Section -->
+
         <div class="adjust-categories">
-          <p class="sort-categories">
+          <p class="no-margin">
             Sort categories by:
-            <span style="font-weight: bold">Recently viewed ↴</span>
+            <span class="sort-categories-title no-margin"
+              >Recently viewed ↴</span
+            >
           </p>
 
           <div class="combine-keywords-container">
-            <div
-              style="
-                background-color: rgb(29, 29, 29);
-                padding: 0px 10px;
-                border-radius: 20px;
-              "
-            >
-              <p style="font-size: 14px; margin: 0">Apex Legends ×</p>
+            <div class="combine-keywords">
+              <p class="no-margin">Apex Legends ×</p>
             </div>
 
-            <div
-              style="
-                background-color: rgb(29, 29, 29);
-                padding: 0px 10px;
-                border-radius: 20px;
-              "
-            >
-              <p style="font-size: 14px; margin: 0">English ×</p>
+            <div class="combine-keywords">
+              <p class="no-margin">English ×</p>
             </div>
 
-            <div
-              style="border-right: 1px solid white; height: 20px; margin: 0"
-            ></div>
+            <div class="border-in-cb-container"></div>
 
-            <p class="combine-with-keywords">Combine with keyword:</p>
+            <p class="no-margin">Combine with keyword:</p>
 
-            <div
-              style="
-                border-bottom: 1px solid gray;
-                width: 90px;
-                height: 20px;
-                margin: 0;
-              "
-            ></div>
+            <div class="underline-in-cb-container"></div>
 
-            <div
-              style="
-                padding: 0px 5px;
-                background-color: white;
-                color: black;
-                border-radius: 5px;
-              "
-            >
-              <p style="margin: 0; padding: 0">Add</p>
+            <div class="add-button">
+              <p class="no-margin">Add</p>
             </div>
           </div>
         </div>
@@ -914,8 +924,15 @@
               alt="apex-legends-cover"
             />
 
-            <div class="category-info">
-              <h4 style="margin: 0; text-align: center">Apex Legends</h4>
+            <div class="category-infobox">
+              <h4 class="category-title no-margin">Apex Legends</h4>
+              <div class="category-info">
+                <p class="category-info-text no-margin">
+                  Apex Legends is a free-to-play battle royale where unique
+                  Legends with special abilities fight in squads to become the
+                  last team standing. Teamwork and skill lead to victory.
+                </p>
+              </div>
             </div>
           </li>
 
@@ -926,8 +943,16 @@
               alt="league-of-legends-cover"
             />
 
-            <div class="category-info">
-              <h4 style="margin: 0; text-align: center">League of Legends</h4>
+            <div class="category-infobox">
+              <h4 class="category-title no-margin">League of Legends</h4>
+
+              <div class="category-info">
+                <p class="category-info-text no-margin">
+                  League of Legends is a free-to-play MOBA where teams of
+                  champions battle to destroy the enemy Nexus using strategy and
+                  teamwork.
+                </p>
+              </div>
             </div>
           </li>
 
@@ -938,10 +963,16 @@
               alt="programming-cover"
             />
 
-            <div class="category-info">
-              <h4 style="margin: 0; text-align: center">
-                Software Development
-              </h4>
+            <div class="category-infobox">
+              <h4 class="category-title no-margin">Software Development</h4>
+
+              <div class="category-info">
+                <p class="category-info-text no-margin">
+                  Software Development is the process of creating and
+                  maintaining applications or systems using coding,
+                  problem-solving, and teamwork.
+                </p>
+              </div>
             </div>
           </li>
 
@@ -952,8 +983,16 @@
               alt="irl-cover"
             />
 
-            <div class="category-info">
-              <h4 style="margin: 0; text-align: center">In Real Life</h4>
+            <div class="category-infobox">
+              <h4 class="category-title no-margin">In Real Life</h4>
+
+              <div class="category-info">
+                <p class="category-info-text no-margin">
+                  In Real Life (IRL) refers to offline activities and
+                  interactions, emphasizing real-world experiences, connections,
+                  and moments beyond screens.
+                </p>
+              </div>
             </div>
           </li>
 
@@ -964,8 +1003,16 @@
               alt="anime-cover"
             />
 
-            <div class="category-info">
-              <h4 style="margin: 0; text-align: center">Anime</h4>
+            <div class="category-infobox">
+              <h4 class="category-title no-margin">Anime</h4>
+
+              <div class="category-info">
+                <p class="category-info-text no-margin">
+                  Anime is a style of animated storytelling originating from
+                  Japan, featuring diverse genres, unique art, and compelling
+                  characters that captivate audiences worldwide.
+                </p>
+              </div>
             </div>
           </li>
 
@@ -1032,6 +1079,8 @@
           </li>
         </ul>
 
+        <!-- Categories streams Sections -->
+
         <div class="root-from-category"></div>
         <div class="main-root"></div>
         <div class="root1"></div>
@@ -1041,23 +1090,15 @@
         <div class="root5"></div>
 
         <ul class="category-streams">
-          <li style="display: flex; flex-direction: column; gap: 5px">
+          <li class="category-stream-container">
             <img
               class="category-stream-cover"
               src="/assets/images/png/mande-stream-example.png"
               alt="mande-stream-example"
             />
 
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: 5px;
-              "
-            >
-              <p style="margin: 0; padding: 0">
+            <div class="category-stream-infobox">
+              <p class="no-margin">
                 🪐MEGA OF THE BONKING WHILE I BONK ON YO MOMMA
               </p>
 
@@ -1088,13 +1129,7 @@
               </svg>
             </div>
 
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-              "
-            >
+            <div class="category-stream-box">
               <div class="stream-author-box">
                 <img
                   class="stream-author-icon"
@@ -1102,111 +1137,27 @@
                 />
 
                 <div class="author-infobox">
-                  <h4 style="margin: 0">
+                  <h4 class="no-margin">
                     Mande
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span>
-                    <span style="font-weight: 500">3022</span>
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    <span class="amount-of-viewers">3022</span>
                   </h4>
 
-                  <p style="margin: 0; font-size: 13px">672K followers</p>
+                  <p class="amount-of-followers no-margin">672K followers</p>
                 </div>
               </div>
-
-              <div style="display: flex; align-items: center"></div>
-            </div>
-          </li>
-          <li style="display: flex; flex-direction: column; gap: 5px">
-            <img
-              class="category-stream-cover"
-              src="/assets/images/png/mande-stream-example.png"
-              alt="mande-stream-example"
-            />
-
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: 5px;
-              "
-            >
-              <p style="margin: 0; padding: 0">
-                🪐MEGA OF THE BONKING WHILE I BONK ON YO MOMMA
-              </p>
-
-              <svg
-                width="34px"
-                height="34px"
-                viewBox="0 0 24 24"
-                fill="#deddda"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <title></title>
-                  <g id="Complete">
-                    <g id="F-More">
-                      <path
-                        d="M12,16a2,2,0,1,1-2,2A2,2,0,0,1,12,16ZM10,6a2,2,0,1,0,2-2A2,2,0,0,0,10,6Zm0,6a2,2,0,1,0,2-2A2,2,0,0,0,10,12Z"
-                        id="Vertical"
-                      ></path>
-                    </g>
-                  </g>
-                </g>
-              </svg>
-            </div>
-
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-              "
-            >
-              <div class="stream-author-box">
-                <img
-                  class="stream-author-icon"
-                  src="/assets/images/png/author-example-2.png"
-                />
-
-                <div class="author-infobox">
-                  <h4 style="margin: 0">
-                    Mande
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span>
-                    <span style="font-weight: 500">3022</span>
-                  </h4>
-
-                  <p style="margin: 0; font-size: 13px">672K followers</p>
-                </div>
-              </div>
-
-              <div style="display: flex; align-items: center"></div>
             </div>
           </li>
 
-          <li style="display: flex; flex-direction: column; gap: 5px">
+          <li class="category-stream-container">
             <img
               class="category-stream-cover"
               src="/assets/images/png/mande-stream-example.png"
               alt="mande-stream-example"
             />
 
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: 5px;
-              "
-            >
-              <p style="margin: 0; padding: 0">
+            <div class="category-stream-infobox">
+              <p class="no-margin">
                 🪐MEGA OF THE BONKING WHILE I BONK ON YO MOMMA
               </p>
 
@@ -1237,13 +1188,7 @@
               </svg>
             </div>
 
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-              "
-            >
+            <div class="category-stream-box">
               <div class="stream-author-box">
                 <img
                   class="stream-author-icon"
@@ -1251,37 +1196,27 @@
                 />
 
                 <div class="author-infobox">
-                  <h4 style="margin: 0">
+                  <h4 class="no-margin">
                     Mande
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span>
-                    <span style="font-weight: 500">3022</span>
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    <span class="amount-of-viewers">3022</span>
                   </h4>
 
-                  <p style="margin: 0; font-size: 13px">672K followers</p>
+                  <p class="amount-of-followers no-margin">672K followers</p>
                 </div>
               </div>
-
-              <div style="display: flex; align-items: center"></div>
             </div>
           </li>
 
-          <li style="display: flex; flex-direction: column; gap: 5px">
+          <li class="category-stream-container">
             <img
               class="category-stream-cover"
               src="/assets/images/png/mande-stream-example.png"
               alt="mande-stream-example"
             />
 
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: 5px;
-              "
-            >
-              <p style="margin: 0; padding: 0">
+            <div class="category-stream-infobox">
+              <p class="no-margin">
                 🪐MEGA OF THE BONKING WHILE I BONK ON YO MOMMA
               </p>
 
@@ -1312,13 +1247,7 @@
               </svg>
             </div>
 
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-              "
-            >
+            <div class="category-stream-box">
               <div class="stream-author-box">
                 <img
                   class="stream-author-icon"
@@ -1326,37 +1255,27 @@
                 />
 
                 <div class="author-infobox">
-                  <h4 style="margin: 0">
+                  <h4 class="no-margin">
                     Mande
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span>
-                    <span style="font-weight: 500">3022</span>
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    <span class="amount-of-viewers">3022</span>
                   </h4>
 
-                  <p style="margin: 0; font-size: 13px">672K followers</p>
+                  <p class="amount-of-followers no-margin">672K followers</p>
                 </div>
               </div>
-
-              <div style="display: flex; align-items: center"></div>
             </div>
           </li>
 
-          <li style="display: flex; flex-direction: column; gap: 5px">
+          <li class="category-stream-container">
             <img
               class="category-stream-cover"
               src="/assets/images/png/mande-stream-example.png"
               alt="mande-stream-example"
             />
 
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: 5px;
-              "
-            >
-              <p style="margin: 0; padding: 0">
+            <div class="category-stream-infobox">
+              <p class="no-margin">
                 🪐MEGA OF THE BONKING WHILE I BONK ON YO MOMMA
               </p>
 
@@ -1387,13 +1306,7 @@
               </svg>
             </div>
 
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-              "
-            >
+            <div class="category-stream-box">
               <div class="stream-author-box">
                 <img
                   class="stream-author-icon"
@@ -1401,39 +1314,88 @@
                 />
 
                 <div class="author-infobox">
-                  <h4 style="margin: 0">
+                  <h4 class="no-margin">
                     Mande
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span>
-                    <span style="font-weight: 500">3022</span>
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    <span class="amount-of-viewers">3022</span>
                   </h4>
 
-                  <p style="margin: 0; font-size: 13px">672K followers</p>
+                  <p class="amount-of-followers no-margin">672K followers</p>
                 </div>
               </div>
+            </div>
+          </li>
 
-              <div style="display: flex; align-items: center"></div>
+          <li class="category-stream-container">
+            <img
+              class="category-stream-cover"
+              src="/assets/images/png/mande-stream-example.png"
+              alt="mande-stream-example"
+            />
+
+            <div class="category-stream-infobox">
+              <p class="no-margin">
+                🪐MEGA OF THE BONKING WHILE I BONK ON YO MOMMA
+              </p>
+
+              <svg
+                width="34px"
+                height="34px"
+                viewBox="0 0 24 24"
+                fill="#deddda"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <title></title>
+                  <g id="Complete">
+                    <g id="F-More">
+                      <path
+                        d="M12,16a2,2,0,1,1-2,2A2,2,0,0,1,12,16ZM10,6a2,2,0,1,0,2-2A2,2,0,0,0,10,6Zm0,6a2,2,0,1,0,2-2A2,2,0,0,0,10,12Z"
+                        id="Vertical"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+
+            <div class="category-stream-box">
+              <div class="stream-author-box">
+                <img
+                  class="stream-author-icon"
+                  src="/assets/images/png/author-example-2.png"
+                />
+
+                <div class="author-infobox">
+                  <h4 class="no-margin">
+                    Mande
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    <span class="amount-of-viewers">3022</span>
+                  </h4>
+
+                  <p class="amount-of-followers no-margin">672K followers</p>
+                </div>
+              </div>
             </div>
           </li>
         </ul>
 
         <ul class="category-streams">
-          <li style="display: flex; flex-direction: column; gap: 5px">
+          <li class="category-stream-container">
             <img
               class="category-stream-cover"
               src="/assets/images/png/mande-stream-example.png"
               alt="mande-stream-example"
             />
 
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: 5px;
-              "
-            >
-              <p style="margin: 0; padding: 0">
+            <div class="category-stream-infobox">
+              <p class="no-margin">
                 🪐MEGA OF THE BONKING WHILE I BONK ON YO MOMMA
               </p>
 
@@ -1464,13 +1426,7 @@
               </svg>
             </div>
 
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-              "
-            >
+            <div class="category-stream-box">
               <div class="stream-author-box">
                 <img
                   class="stream-author-icon"
@@ -1478,111 +1434,27 @@
                 />
 
                 <div class="author-infobox">
-                  <h4 style="margin: 0">
+                  <h4 class="no-margin">
                     Mande
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span>
-                    <span style="font-weight: 500">3022</span>
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    <span class="amount-of-viewers">3022</span>
                   </h4>
 
-                  <p style="margin: 0; font-size: 13px">672K followers</p>
+                  <p class="amount-of-followers no-margin">672K followers</p>
                 </div>
               </div>
-
-              <div style="display: flex; align-items: center"></div>
-            </div>
-          </li>
-          <li style="display: flex; flex-direction: column; gap: 5px">
-            <img
-              class="category-stream-cover"
-              src="/assets/images/png/mande-stream-example.png"
-              alt="mande-stream-example"
-            />
-
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: 5px;
-              "
-            >
-              <p style="margin: 0; padding: 0">
-                🪐MEGA OF THE BONKING WHILE I BONK ON YO MOMMA
-              </p>
-
-              <svg
-                width="34px"
-                height="34px"
-                viewBox="0 0 24 24"
-                fill="#deddda"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <title></title>
-                  <g id="Complete">
-                    <g id="F-More">
-                      <path
-                        d="M12,16a2,2,0,1,1-2,2A2,2,0,0,1,12,16ZM10,6a2,2,0,1,0,2-2A2,2,0,0,0,10,6Zm0,6a2,2,0,1,0,2-2A2,2,0,0,0,10,12Z"
-                        id="Vertical"
-                      ></path>
-                    </g>
-                  </g>
-                </g>
-              </svg>
-            </div>
-
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-              "
-            >
-              <div class="stream-author-box">
-                <img
-                  class="stream-author-icon"
-                  src="/assets/images/png/author-example-2.png"
-                />
-
-                <div class="author-infobox">
-                  <h4 style="margin: 0">
-                    Mande
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span>
-                    <span style="font-weight: 500">3022</span>
-                  </h4>
-
-                  <p style="margin: 0; font-size: 13px">672K followers</p>
-                </div>
-              </div>
-
-              <div style="display: flex; align-items: center"></div>
             </div>
           </li>
 
-          <li style="display: flex; flex-direction: column; gap: 5px">
+          <li class="category-stream-container">
             <img
               class="category-stream-cover"
               src="/assets/images/png/mande-stream-example.png"
               alt="mande-stream-example"
             />
 
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: 5px;
-              "
-            >
-              <p style="margin: 0; padding: 0">
+            <div class="category-stream-infobox">
+              <p class="no-margin">
                 🪐MEGA OF THE BONKING WHILE I BONK ON YO MOMMA
               </p>
 
@@ -1613,13 +1485,7 @@
               </svg>
             </div>
 
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-              "
-            >
+            <div class="category-stream-box">
               <div class="stream-author-box">
                 <img
                   class="stream-author-icon"
@@ -1627,37 +1493,27 @@
                 />
 
                 <div class="author-infobox">
-                  <h4 style="margin: 0">
+                  <h4 class="no-margin">
                     Mande
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span>
-                    <span style="font-weight: 500">3022</span>
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    <span class="amount-of-viewers">3022</span>
                   </h4>
 
-                  <p style="margin: 0; font-size: 13px">672K followers</p>
+                  <p class="amount-of-followers no-margin">672K followers</p>
                 </div>
               </div>
-
-              <div style="display: flex; align-items: center"></div>
             </div>
           </li>
 
-          <li style="display: flex; flex-direction: column; gap: 5px">
+          <li class="category-stream-container">
             <img
               class="category-stream-cover"
               src="/assets/images/png/mande-stream-example.png"
               alt="mande-stream-example"
             />
 
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: 5px;
-              "
-            >
-              <p style="margin: 0; padding: 0">
+            <div class="category-stream-infobox">
+              <p class="no-margin">
                 🪐MEGA OF THE BONKING WHILE I BONK ON YO MOMMA
               </p>
 
@@ -1688,13 +1544,7 @@
               </svg>
             </div>
 
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-              "
-            >
+            <div class="category-stream-box">
               <div class="stream-author-box">
                 <img
                   class="stream-author-icon"
@@ -1702,37 +1552,27 @@
                 />
 
                 <div class="author-infobox">
-                  <h4 style="margin: 0">
+                  <h4 class="no-margin">
                     Mande
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span>
-                    <span style="font-weight: 500">3022</span>
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    <span class="amount-of-viewers">3022</span>
                   </h4>
 
-                  <p style="margin: 0; font-size: 13px">672K followers</p>
+                  <p class="amount-of-followers no-margin">672K followers</p>
                 </div>
               </div>
-
-              <div style="display: flex; align-items: center"></div>
             </div>
           </li>
 
-          <li style="display: flex; flex-direction: column; gap: 5px">
+          <li class="category-stream-container">
             <img
               class="category-stream-cover"
               src="/assets/images/png/mande-stream-example.png"
               alt="mande-stream-example"
             />
 
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: 5px;
-              "
-            >
-              <p style="margin: 0; padding: 0">
+            <div class="category-stream-infobox">
+              <p class="no-margin">
                 🪐MEGA OF THE BONKING WHILE I BONK ON YO MOMMA
               </p>
 
@@ -1763,13 +1603,7 @@
               </svg>
             </div>
 
-            <div
-              style="
-                width: 310px;
-                display: flex;
-                justify-content: space-between;
-              "
-            >
+            <div class="category-stream-box">
               <div class="stream-author-box">
                 <img
                   class="stream-author-icon"
@@ -1777,20 +1611,78 @@
                 />
 
                 <div class="author-infobox">
-                  <h4 style="margin: 0">
+                  <h4 class="no-margin">
                     Mande
-                    <span style="color: limegreen">&nbsp;•&nbsp;</span>
-                    <span style="font-weight: 500">3022</span>
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    <span class="amount-of-viewers">3022</span>
                   </h4>
 
-                  <p style="margin: 0; font-size: 13px">672K followers</p>
+                  <p class="amount-of-followers no-margin">672K followers</p>
                 </div>
               </div>
+            </div>
+          </li>
 
-              <div style="display: flex; align-items: center"></div>
+          <li class="category-stream-container">
+            <img
+              class="category-stream-cover"
+              src="/assets/images/png/mande-stream-example.png"
+              alt="mande-stream-example"
+            />
+
+            <div class="category-stream-infobox">
+              <p class="no-margin">
+                🪐MEGA OF THE BONKING WHILE I BONK ON YO MOMMA
+              </p>
+
+              <svg
+                width="34px"
+                height="34px"
+                viewBox="0 0 24 24"
+                fill="#deddda"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <title></title>
+                  <g id="Complete">
+                    <g id="F-More">
+                      <path
+                        d="M12,16a2,2,0,1,1-2,2A2,2,0,0,1,12,16ZM10,6a2,2,0,1,0,2-2A2,2,0,0,0,10,6Zm0,6a2,2,0,1,0,2-2A2,2,0,0,0,10,12Z"
+                        id="Vertical"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+
+            <div class="category-stream-box">
+              <div class="stream-author-box">
+                <img
+                  class="stream-author-icon"
+                  src="/assets/images/png/author-example-2.png"
+                />
+
+                <div class="author-infobox">
+                  <h4 class="no-margin">
+                    Mande
+                    <span class="current-user-status-dot">&nbsp;•&nbsp;</span>
+                    <span class="amount-of-viewers">3022</span>
+                  </h4>
+
+                  <p class="amount-of-followers no-margin">672K followers</p>
+                </div>
+              </div>
             </div>
           </li>
         </ul>
+        <h4 class="categories-show-more-button no-margin">Show More ↴</h4>
       </div>
     </div>
   </body>
