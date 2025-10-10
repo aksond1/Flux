@@ -781,7 +781,7 @@ header {
 
 .underline {
   position: absolute;
-  background-color: white;
+  background-color: gray;
   height: 1px;
   width: 1255px;
   left: 530px;
@@ -793,25 +793,24 @@ header {
 
 .line {
   position: absolute;
-  background-color: white;
+  background-color: gray;
   width: 1px;
-  height: 18px;
-  transform: rotate(45deg);
+  height: 15px;
 }
 
 .line1 {
-  top: 2419px;
-  left: 720px;
+  top: 2421px;
+  left: 712px;
 }
 
 .line2 {
-  top: 2419px;
-  left: 1170px;
+  top: 2421px;
+  left: 1162px;
 }
 
 .line3 {
-  top: 2419px;
-  left: 1620px;
+  top: 2421px;
+  left: 1612px;
 }
 
 .underline2 {
@@ -877,7 +876,6 @@ header {
 .vertical-line {
   width: 1px;
   height: 114px;
-  background-color: white;
   margin: 40px 48px;
 }
 
