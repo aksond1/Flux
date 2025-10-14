@@ -564,16 +564,21 @@ header {
   border-radius: 50%;
 }
 
-.amount-of-viewers,
-.stream-categories {
+.amount-of-viewers {
   font-weight: 500;
+}
+
+.stream-categories {
+  color: gray;
 }
 
 .amount-of-followers {
   font-size: 13px;
 }
 
-.scroll-stream-info {
+.swap-vertical-img {
+  width: 30px;
+  height: 30px;
   display: flex;
   padding-top: 10px;
   padding-right: 15px;
@@ -623,6 +628,12 @@ header {
   background-color: white;
   color: black;
   border-radius: 5px;
+}
+
+.previous-button,
+.next-button {
+  width: 18px;
+  height: 18px;
 }
 
 .categories-list {
