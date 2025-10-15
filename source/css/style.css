@@ -590,7 +590,8 @@ header {
 .adjust-categories {
   display: flex;
   justify-content: space-between;
-  padding: 5px 0px;
+  padding-top: 4px;
+  padding-bottom: 10px;
 }
 
 .sort-categories {
@@ -739,12 +740,18 @@ header {
   left: 1721px;
 }
 
+.categories-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 5px;
+}
+
 .category-section {
   display: flex;
   flex-direction: column;
   gap: 30px;
   margin-top: 35px;
-  margin-bottom: 15px;
 }
 
 .category-streams {
@@ -826,8 +833,17 @@ header {
 /* Trends Section */
 
 .trends-section {
-  padding-bottom: 15px;
-  border-bottom: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.trends-section .line-center::before {
+  width: 46%;
+}
+
+.trends-section .line-center::after {
+  width: 46%;
 }
 
 .trends-title-container {
@@ -844,24 +860,73 @@ header {
 .trends-swap-button {
   width: 15px;
   height: 15px;
-  margin-top: 14px;
-}
-
-.trends-title,
-.trends-view-all-button {
-  padding: 10px 0px;
-  margin: 0;
+  margin-top: 3px;
 }
 
 /* Best clips Section */
 
+.clips-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.clips-section .line-center::before {
+  width: 46%;
+}
+
+.clips-section .line-center::after {
+  width: 46%;
+}
+
+.clips-title-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 3px;
+}
+
+.clips-title-box {
+  display: flex;
+  gap: 3px;
+}
+
 .down-button {
-  width: 26px;
-  height: 26px;
-  margin-top: 9px;
+  width: 22px;
+  height: 22px;
 }
 
 /* Related to Section */
+
+.related-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.related-section .line-center::before {
+  width: 46%;
+}
+
+.related-section .line-center::after {
+  width: 46%;
+}
+
+.related-title-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 3px;
+}
+
+.related-title-box {
+  display: flex;
+  gap: 3px;
+}
+
+.related-to-author-nickname {
+  color: gray;
+}
 
 /* Chronology of moments Section */
 
