@@ -590,12 +590,15 @@ header {
 .adjust-categories {
   display: flex;
   justify-content: space-between;
-  padding: 10px 0px;
-  border-top: 1px solid gray;
+  padding: 5px 0px;
 }
 
-.sort-categories-title {
-  font-weight: bold;
+.sort-categories {
+  display: flex;
+}
+
+.sort-categories .down-button {
+  margin-top: 0px;
 }
 
 .combine-keywords-container {
@@ -690,7 +693,7 @@ header {
   background-color: white;
   position: absolute;
   left: 356px;
-  top: 1412px;
+  top: 1385px;
   width: 1px;
   height: 28px;
 }
@@ -699,7 +702,7 @@ header {
   background-color: white;
   position: absolute;
   left: 356px;
-  top: 1440px;
+  top: 1413px;
   width: 1365px;
   height: 1px;
 }
@@ -711,7 +714,7 @@ header {
 .root5 {
   background-color: white;
   position: absolute;
-  top: 1440px;
+  top: 1413px;
   width: 1px;
   height: 28px;
 }
@@ -736,6 +739,14 @@ header {
   left: 1721px;
 }
 
+.category-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
 .category-streams {
   width: 1603px;
   margin: 0;
@@ -753,7 +764,6 @@ header {
 .category-stream-cover {
   background-color: #1d1d1d;
   border-radius: 5px;
-  margin-top: 35px;
   width: 315px;
   height: 177px;
 }
@@ -762,6 +772,7 @@ header {
   width: 315px;
   display: flex;
   justify-content: space-between;
+  padding-left: 3px;
 }
 
 .category-stream-infobox {
@@ -770,6 +781,7 @@ header {
   justify-content: space-between;
   align-items: center;
   gap: 5px;
+  padding-left: 3px;
 }
 
 .stream-title-box {
@@ -787,6 +799,69 @@ header {
   padding: 15px 0px;
   border-bottom: 1px solid gray;
 }
+
+.line-center {
+  text-align: center;
+  position: relative;
+  font-weight: 500;
+}
+.line-center::before,
+.line-center::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 47%;
+  height: 1px;
+  background: gray;
+}
+.line-center::before {
+  left: 0;
+  transform: translateY(-50%);
+}
+.line-center::after {
+  right: 0;
+  transform: translateY(-50%);
+}
+
+/* Trends Section */
+
+.trends-section {
+  padding-bottom: 15px;
+  border-bottom: 1px solid gray;
+}
+
+.trends-title-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 3px;
+}
+
+.trends-title-box {
+  display: flex;
+  gap: 7px;
+}
+
+.trends-swap-button {
+  width: 15px;
+  height: 15px;
+  margin-top: 14px;
+}
+
+.trends-title,
+.trends-view-all-button {
+  padding: 10px 0px;
+  margin: 0;
+}
+
+/* Best clips Section */
+
+.down-button {
+  width: 26px;
+  height: 26px;
+  margin-top: 9px;
+}
+
+/* Related to Section */
 
 /* Chronology of moments Section */
 
@@ -822,12 +897,6 @@ header {
 .line3 {
   top: 2421px;
   left: 1612px;
-}
-
-.underline2 {
-}
-
-.underline3 {
 }
 
 .chronology-container {
@@ -944,4 +1013,10 @@ header {
 .third-date {
   padding-top: 28px;
   padding-left: 375px;
+}
+
+.three-circles-img {
+  width: 40px;
+  height: 40px;
+  padding-left: 180px;
 }
