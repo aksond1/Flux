@@ -836,6 +836,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-top: 15px;
 }
 
 .trends-section .line-center::before {
@@ -849,18 +850,22 @@ header {
 .trends-title-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0px 3px;
 }
 
 .trends-title-box {
   display: flex;
-  gap: 7px;
+  gap: 5px;
+  align-items: center;
 }
 
-.trends-swap-button {
-  width: 15px;
+.fire-button {
   height: 15px;
-  margin-top: 3px;
+}
+
+.options-button {
+  height: 16px;
 }
 
 /* Best clips Section */
@@ -869,7 +874,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .clips-section .line-center::before {
@@ -884,11 +889,17 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 0px 3px;
+  align-items: center;
 }
 
 .clips-title-box {
   display: flex;
-  gap: 3px;
+  gap: 5px;
+  align-items: center;
+}
+
+.grow-button {
+  height: 18px;
 }
 
 .down-button {
@@ -902,7 +913,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .related-section .line-center::before {
@@ -917,11 +928,17 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 0px 3px;
+  align-items: center;
 }
 
 .related-title-box {
   display: flex;
-  gap: 3px;
+  align-items: center;
+  gap: 5px;
+}
+
+.related-button {
+  height: 19px;
 }
 
 .related-to-author-nickname {
