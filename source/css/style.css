@@ -521,11 +521,11 @@ header {
 .stream-group-1,
 .stream-group-2 {
   width: 800px;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-bottom: 10px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 8px;
 }
 
 .stream-box {
@@ -694,7 +694,7 @@ header {
   background-color: white;
   position: absolute;
   left: 356px;
-  top: 1385px;
+  top: 1356px;
   width: 1px;
   height: 28px;
 }
@@ -703,7 +703,7 @@ header {
   background-color: white;
   position: absolute;
   left: 356px;
-  top: 1413px;
+  top: 1384px;
   width: 1365px;
   height: 1px;
 }
@@ -715,7 +715,7 @@ header {
 .root5 {
   background-color: white;
   position: absolute;
-  top: 1413px;
+  top: 1384px;
   width: 1px;
   height: 28px;
 }
